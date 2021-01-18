@@ -44,10 +44,19 @@ To https://github.com/eddie4ikau/estudoPHP.git<br>
  * [new branch]      master -> master <br>";
 
 echo "Agora iremos editar este arquivo na conexão remota, ou seja editar este arquivo aqui no site do github <br> ";
-echo " ^^ "
+echo " depois de atualizar/editar este arquivo na conexao remota , salve o arquivo como update deste arquivo<br>
 
-
-
-
-
-?>
+depois, retorne para o terminal de comando  e digite o seguinte $ git pull origin master e enter: aparecerá <br>
+uma tela parecida com essa abaixo confirmando que houve atuaizaçções:<br>
+remote: Enumerating objects: 5, done.<br>
+remote: Counting objects: 100% (5/5), done.<br>
+remote: Compressing objects: 100% (2/2), done.<br>
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0<br>
+Unpacking objects: 100% (3/3), 1.87 KiB | 958.00 KiB/s, done.<br>
+From https://github.com/eddie4ikau/estudoPHP<br>
+ * branch            master     -> FETCH_HEAD<br>
+   359cbdf..0863943  master     -> origin/master<br>
+Updating 359cbdf..0863943<br>
+Fast-forward<br>
+ aulaphp.php | 33 ++++++++++++++++++++++++++++++++-<br>
+ 1 file changed, 32 insertions(+), 1 deletion(-)<br>";
